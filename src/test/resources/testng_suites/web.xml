@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Service now - UI tests" skipfailedinvocationcounts="false" junit="false" parallel="tests" data-provider-thread-count="50" annotations="JDK">
+	
+	<parameter name="suiteOwner" value="anazarenko"/>
+
+	<test name="Service now - test">
+		<classes>
+			<class name="com.qaprosoft.servicenow.ui.ServiceNowTest" />
+		</classes>
+	</test>
+
+</suite>
